@@ -12,12 +12,12 @@ user_age_int = int(user_age)
 
 # запрос веса
 user_weght = input('Введите свой вес:')
-user_weght_float = float (user_weght)
+user_weght_float = float(user_weght)
 
 
 # запрос роста
 user_height = input('Введите свой рост в метрах, (например: 1.75):')
-user_height_float = float (user_height)
+user_height_float = float(user_height)
 
 
 # расчёт индекса массы тела
