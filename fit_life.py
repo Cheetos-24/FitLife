@@ -1,4 +1,4 @@
-""" Проект FitLife - MVP версия 1.0 """
+"""Проект FitLife - MVP версия 1.0"""
 water_per_kg = 30
 volume_water_ml = 1000
 
