@@ -1,6 +1,7 @@
 """Проект FitLife - MVP версия 1.0"""
-water_per_kg = 30
-volume_water_ml = 1000
+
+WATER_PER_KG = 30
+VOLUME_WATER_ML = 1000
 
 # запрос имени
 user_name = input('Введите своё имя:')
@@ -24,8 +25,8 @@ round(bmi, 1)
 
 
 # расчёт нормы воды в литрах
-water_ml = user_weght * water_per_kg
-water_l = water_ml / volume_water_ml
+water_ml = user_weght * WATER_PER_KG
+water_l = water_ml / VOLUME_WATER_ML
 
 # вывод результата с помощью f-строк
 print(f'Привет, {user_name}!\nТебе {user_age} лет')
